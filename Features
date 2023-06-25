@@ -1,0 +1,133 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                     ----------------------------------( KEEL INFORMATION )----------------------------------
+
+                                                         ( #1 Da hood streamable, blatant , Semi legit, kodas , Script )
+
+                                                          ( #1  For Legit sets , Blatant , Kodas , Etc but it will depend on sets )
+                             
+                                                         ( If Gui / external come out buyers will not recieve those.  )
+                             
+                                                          ( You can make ur own Da hood / dh remake   )
+                             
+                                                         ( Works on every da hood remake , but silent wont work on Da hood remakes , But will be fixed soon)
+
+                                                            ( 2 People got stars in da hood remakes while using Keel V2.0.0)
+
+
+                                                       Supported executors : ( scriptware, scriptware mac, synapse, krnl, electron, fluxus, basically anything )
+                                                    -------------------------------------------------------------------------------------------------------------------
+
+                                                 Supported executors : ( scriptware, scriptware mac, synapse, krnl, electron, fluxus, basically anything )
+
+
+                        
+                                                 
+-- هذه الميزات صنعت من قبلي
+ ------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+ ------------------------------------------------------------------------------------------------------------------- >_< ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+getgenv().Keel = {
+
+    ["MainSettings"] = {  
+        Intro = true,
+        Version = "Latest" -- Latest Version and its the only version
+    },
+    ["Panic"] = {
+        Enabled = false, -- // Disables all features
+        Key = "K", -- // Key To Disable All Features
+    },
+    ["spin360"] = {
+        Toggle = false,
+        speed = 2100, -- Go lower if u want to look Legit
+        Keybind = Enum.KeyCode.H
+    },
+     ["MemorySpoofer"] = {
+        Enabled = true, 
+        Values = {
+            Minimum = 100, 
+            Maximum = 200, 
+
+        }
+    },
+
+     ["Globals"] = {
+        FOVMode = "PredictionPoint"
+    },
+     ["Silent"] = {
+         ["Main"] = {
+            Enabled = true,
+            Mode = "Target",
+            Toggle = "C",
+            Prediction = 0.134,
+            AntiGroundShots = true,
+            HitChance = 100,
+            Parts = {"Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "HumanoidRootPart", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso"}
+            -- // you can remove the parts to make better fps
+        },
+         ["FOV"] = {
+            ShowFOV = false,
+            Shape = 'Circle', -- // only circle!!
+            Radius = 35,
+            Color = Color3.fromRGB(128, 0, 128),
+            Filled = false,{
+                Color = Color3.fromRGB(128, 0, 128) -- can change the colors
+            },
+            Transparency = 0.8
+        }
+    },
+     ["AimAssist"] = {
+         ["Main"] = {
+            Enabled = true,
+            Key = "Q",
+            UnlockKey = "e",
+            SmoothLock = true,
+            Smoothness = 0.0312,
+            PredictMovement = true,
+            Prediction = 0.072,
+            Shake = false,
+            ShakeValue = 1,
+            Parts = {"Head"} -- can change this to what ever you want !!
+        },
+         ["FOV"] = {
+            UseFOV = true,
+            ShowFOV = false,
+            Shape = 'Circle', -- // only circle!!
+            Radius = 55,
+            Color = Color3.fromRGB(128, 0, 128), -- can change the colors
+            Filled = false,{
+                Color = Color3.fromRGB(128, 0, 128) -- can change the colors 
+            },
+            Transparency = 0.8
+        }
+    },
+     ["AutoPrdiction"] = { 
+        Enabled = true,
+        p0_30 = 0.102,
+        p30_40 = 0.107,
+        p0_50 = 0.11,
+        p50_60 = 0.12731,
+        p60_70 = 0.12731,
+        p70_80 = 0.12951,
+        p80_90 = 0.13181,
+        p90_100 = 0.138,
+        p100_110 = 0.146,
+        p110_120 = 0.1367,
+        p120_130 = 0.1401,
+        p130_140 = 0.1437,
+        p140_150 = 0.153,
+        p150_160 = 0.1514,
+        p160_170 = 0.1663,
+        p170_180 = 0.1672,
+        p180_190 = 0.1848,
+        p190_200 = 0.1865,
+    },
+}
